@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 16px;
+        }
+
+        h1 {
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar-->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Andy Forbes</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <!-- each link leads to the a different part of portfolio with glyphicon on the side-->
+                <li>
+                    <a href="index.html">
+                        <span class="glyphicon glyphicon-user"></span> About</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">
+                        <span class="glyphicon glyphicon-th-list"></span> Portfolio</a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <span class="glyphicon glyphicon-log-in"></span> Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="page-header">
+                    <h1>About Me</h1>
+                </div>
+                <!-- About me content in a nested row-->
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="images/DSC_0231 (2).jpg" alt="placeholder" height="200px">
+                    </div>
+                    <div class="col-md-9">
+                        <p>My name is Andy Forbes. I was born in Gainesville Florida in 1993. I moved to and grew up in Tampa
+                            Bay . My biggest passions in life are hockey, music, and now coding. My hockey team is the Tampa
+                            Bay Lightning, and I try to hit the ice and play hockey twice a week. I am still new to the coding
+                            world (only around 4 months of being self-taught), but I've found myself becoming more and more
+                            excited to learn about programming. I'm always eager to pick up new tools in my coding arsenal.
+                        </p>
+                        <p>
+                            I am a very creative person. Its fun to inject a little of your personality into the programs you make. In my expierence
+                            so far I've found coding to be a great way to strech my more creative muscles and I hope that
+                            I can continue to grow and eventually build bigger and better things. I can't wait to see what
+                            else I'm going to design.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <!-- panel on its own column-->
+                <div class="panel panel-info">
+                    <div class="panel-heading">Connect with Me</div>
+                    <div class="panel-body">
+                        <!-- nested rows to fit contact links on panel-->
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <a href="https://github.com/AndyForbes93" target="_blank">
+                                    <img src="images/Github-Mark.png" height="119px">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <a href="https://www.linkedin.com/in/andrew-forbes-636554138/" target="_blank">
+                                <img src="images/download.png" height="112px">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
